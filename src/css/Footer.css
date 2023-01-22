@@ -1,0 +1,289 @@
+@font-face {
+    font-family: "glyphicons";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+:root{
+    --icon-facebook: url('../img/facebook-app-symbol.png');
+    --icon-instagram: url('../img/instagram.png');
+    --desarrollado-imagen:url('../img/intel.png');
+    --tecnologia-imagen:url('../img/nuclear.png');
+    --certificado-imagen:url('../img/iso.png');
+    --paypal:url('../img/paypal-logo.png');
+    --visa:url('../img/symbols.png');
+    --dinners:url('../img/tesla.png');
+    --master:url('../img/master-card.png');
+    --efecty:url('../img/bank-building.png');
+}
+.footer-container{
+    width: 100%;
+    height: 70vh;
+    background-color: aqua;
+}
+.product-social{
+    width: 100%;
+    height: 30%;
+    background-color: rgba(231,230,226,1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.product-category-title, .product-category-social{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product-category-title{
+    justify-content: flex-end;
+    background-color: rgba(240, 248, 255, 0);
+    font-family: 'glyphicons';
+    font-weight: lighter;
+    font-size: 200%;
+    color: rgba(86,86,90,0.99);
+}
+.product-category-social ul{
+    border-top: solid 2px rgba(86,86,90,0.7);
+    width: 10%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: rgba(240, 248, 255, 0);
+    margin: 0;
+    padding: 0;
+}
+.product-category-social li{
+    width: 40%;
+    height: 30%;
+    background-color: rgba(255, 192, 203, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin-top: 10px;
+}
+.icon-facebook{
+    background-image: var(--icon-facebook);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.icon-instagram{
+    background-image: var(--icon-instagram);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+ul{
+    margin: 0%;
+    padding: 0%;
+}
+.footer-info{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 2px rgba(86,86,90,0.7);
+}
+
+.footer-info-in{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.newsletter, .recursos, .mi-cuenta, .servicio-cliente{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(127, 255, 212, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.footer-title{
+    font-family: 'glyphicons';
+    font-weight: lighter;
+    font-size: 100%;
+    color: rgba(86,86,90,0.99);
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 255, 0);
+}
+.footer-container-list, .registrate{
+    color: rgba(86,86,90,0.99);
+    width: 70%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: rgba(250, 235, 215, 0);
+    list-style: none;
+}
+.footer-container-list li{
+    background-color: rgba(68, 255, 0, 0);
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    list-style: none;
+    margin-top: 10px;
+}
+
+.footer-container-list a{
+    color: rgba(86,86,90,0.99);
+    background-color: rgba(137, 43, 226, 0);
+    text-decoration: none;
+    font-size: 80%;
+}
+
+.registrate{
+    font-size: 80%;
+    text-align: justify;
+    height: 30%;
+}
+.email{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-start;
+}
+.email input{
+    width: 70%;
+    height: 100%;    
+}
+
+.sponsors{
+    width: 100%;
+    height: 30%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sponsors-in{
+    width: 80%;
+    height: 50%;
+    background-color: rgba(212, 11, 11, 0);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.desarrollado, .tecnologia, .certificado, .metodos-pago, .espacio, .espacio-left{
+    height: 100%;
+    width: auto;
+    background-color: rgba(0, 255, 255, 0);
+    margin: 0% 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.espacio, .espacio-left{
+    width: 1px;
+}
+.metodos-pago{
+    width: 50%;
+}
+.sponsors-titles{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #D6D6D6;
+    font-size: 80%;
+    background-color: rgba(0, 0, 255, 0);
+}
+.sponsors-image{
+    width: 100%;
+    height: 60%;
+    background-color: rgba(137, 43, 226, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+.desarrollado-imagen{
+    background-image: var(--desarrollado-imagen);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.tecnologia-imagen{
+    background-image: var(--tecnologia-imagen);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.certificado-imagen{
+    background-image: var(--certificado-imagen);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.sponsors-metodos-list{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0);
+}
+.sponsors-metodos-list li{
+    width: 400%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 0, 217, 0);
+    margin: 0 1px;
+}
+.paypal{
+    background-image: var(--paypal);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.visa{
+    background-image: var(--visa);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.efecty{
+    background-image: var(--efecty);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.dinners{
+    background-image: var(--dinners);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.master{
+    background-image: var(--master);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.espacio-left{
+    border-right: solid 2px rgba(86,86,90,0.4);
+}
