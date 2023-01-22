@@ -104,22 +104,24 @@ const Producto = () => {
                                 </ul>
                             </div>
                             <div className='producto-talla'>
-                                <p>TALLA</p>
-                                <ul>
-                                    <li>5</li>
-                                    <li>5.5</li>
-                                    <li>6</li>
-                                    <li>6.5</li>
-                                    <li>7</li>
-                                    <li>7.5</li>
-                                    <li>8</li>
-                                    <li>8.5</li>
-                                    <li>9</li>
-                                    <li>9.5</li>
-                                </ul>
-                                <div className='guia-tallas'>
-                                    <a href="#">GUIA DE TALLAS</a>
+                                <div className='talla-in'>TALLA</div>
+                                <div className='talla-list'>
+                                    <ul>
+                                        <li>5</li>
+                                        <li>5.5</li>
+                                        <li>6</li>
+                                        <li>6.5</li>
+                                        <li>7</li>
+                                        <li>7.5</li>
+                                        <li>8</li>
+                                        <li>8.5</li>
+                                        <li>9</li>
+                                        <li>9.5</li>
+                                    </ul>
                                 </div>
+                            </div>
+                            <div className='guia-tallas'>
+                                <a href="#">GUÍA DE TALLAS</a>
                             </div>
                             <div className='comprar'>
                                 <button type="submit">AÑADIR AL CARRITO</button>
@@ -129,12 +131,20 @@ const Producto = () => {
                     </div>
                     <div className='producto-detalles'>
                         <div className='detalles-producto'>
-                            <h3>DETALLES DEL PRODUCTO</h3>
-                            <p></p>
+                            <div className='detalles-in'>
+                                <h3>DETALLES DE PRODUCTO</h3>
+                            </div>   
+                            <div className='detalles-content'>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div> 
                         </div>
                         <div className='tecnologias-producto'>
-                            <h3>TECNOLOGÍAS</h3>
-                            <p></p>
+                            <div className='tecnologias-in'>
+                                <h3>TECNOLOGÍAS</h3>
+                            </div>   
+                            <div className='tecnologias-content'>
+                                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                            </div> 
                         </div>
                     </div>
                 </div>
