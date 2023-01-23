@@ -251,12 +251,15 @@
     border: 0;
 }
 .corazon{
-    width: 30%;
+    width: 10%;
     height: 50%;
     background-image: var(--heart);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+}
+.corazon:hover{
+    border: solid 2px rgb(160, 160, 160);
 }
 .guia-tallas{
     width: 100%;
@@ -307,6 +310,9 @@
     justify-content: center;
     align-items: center;
     list-style: none;
+}
+.talla-list li:hover{
+    background-color:  rgba(194, 194, 196, 0.4);
 }
 
 .detalles-producto{

@@ -2,8 +2,8 @@ import React,{useState, useEffect} from 'react'
 import '../css/Producto.css';
 import UseFetch from '../Funciones/UseFetch';
 import Data from '../zapato.json';
-const Producto = () => {
-    console.log(Data);
+const Producto = ({datoproducto}) => {
+    //console.log(Data);
     const [previewproduct, setPreviewproduct] = useState({
         nombre:undefined,
         precio:undefined,
@@ -45,8 +45,13 @@ const Producto = () => {
         }
     ]
 
+    if(datoproducto && datoproducto!=undefined){
+        console.log('VERGA LLEGO');
+        console.log(datoproducto)
+    }
+    
     useEffect(() => {
-        if(Data){
+        if(Data && !datoproducto || datoproducto==undefined){
             setPreviewproduct({
                 ...previewproduct, 
                 nombre:Data[0].nombre,
@@ -60,9 +65,21 @@ const Producto = () => {
             console.log(previewproduct);
             console.log('----------------------');
             */
-            
         }
-    }, [])
+        if(datoproducto && datoproducto!=undefined){
+            console.log('Dato producto foto: ');
+            console.log(datoproducto.foto);
+            console.log('*************');
+    
+            setPreviewproduct({
+                ...previewproduct, 
+                nombre:datoproducto.nombre,
+                precio:datoproducto.precio,
+                referencia:datoproducto.referencia,
+                foto:'../img/'+datoproducto.foto
+            });      
+        }
+    }, [datoproducto])
 
     return (
         <div className='producto-container'>
@@ -74,7 +91,12 @@ const Producto = () => {
                     <div className='producto-sub-in'>
                         <div className='producto-preview'>
                             <div className='producto-imagen'>
-                                <img src="../img/preview/2.jpg" alt=""/>
+                                {
+                                    (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
+                                    <img src={previewproduct.foto} alt=""/>
+                                    :
+                                    <img src="../img/preview/1.jpg" alt=""/>
+                                }
                             </div>
                             <div className='producto-imagenes'>
                                 <ul>
