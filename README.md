@@ -1,12 +1,28 @@
-# Getting Started with Create React App
+# Ikashoes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was developed using React.js. It is a product commerce web site.
 
-## Available Scripts
+## Technologies 
 
-In the project directory, you can run:
+The main language used is Javascript with the framework ReactJS.
 
-### `npm start`
+## Structure
+
+The app is based on components, tha main named 'App.js' and in the subdirectory you can find the folder /js, the components directory. 
+Alsa you have the /css directory of styles.
+In the current project the data is fetched from a local JSON file to simulate a API. However, in the /Funciones directory you can find the method to fetch data from a remote API.
+
+## Markup
+The final design is shown in the next picture
+
+![](public/design/1.png)
+![](public/design/2.png)
+![](public/design/3.png)
+![](public/design/4.png)
+
+### Install and run
+
+`npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
