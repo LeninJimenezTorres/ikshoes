@@ -6,6 +6,10 @@ This project was developed using React.js. It is a product commerce web site.
 
 The main language used is Javascript with the framework ReactJS.
 
+## Characteristics 
+
+The app is able to do a dynamic rendering based on states of user selected products.
+
 ## Structure
 
 The app is based on components, tha main named 'App.js' and in the subdirectory you can find the folder /js, the components directory. 
