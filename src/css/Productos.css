@@ -1,0 +1,72 @@
+@font-face {
+    font-family: "glyphicons";
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/glyphicons-halflings-regular.ttf') format('truetype');
+}
+.productos-contenedor{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.productos-contenedor-in{
+    width: 90%;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.productos-title{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    color: rgba(86,86,90,0.99);
+    border-bottom: solid 2px rgba(86,86,90,0.7) ;
+    font-family: 'glyphicons';
+    font-weight: bold;
+    font-stretch: condensed;
+    font-size: 110%;
+}
+.productos-contenedor-lista{
+    width: 100%;
+    height: 90%;
+    background-color: rgba(72, 255, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productos-contenedor-lista ul{
+    width: 1000vw;
+    height: 100%;
+    background-color: rgba(255, 196, 0, 0);
+    overflow-x: scroll;
+    
+    display: flex;
+    grid-template-rows: repeat( auto-fit, minmax(500px, 1fr) );
+}
+.item-productos{
+    width: 280px;
+    height: 90%;
+    background-color: rgb(255, 255, 255);
+    margin: 10px 20px;
+    list-style: none;
+}
+.productos-contenedor-lista a{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(147, 3, 3, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}

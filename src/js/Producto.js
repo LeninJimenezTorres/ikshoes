@@ -10,11 +10,12 @@ const Producto = () => {
         referencia:undefined,
         foto:undefined
     });
+    /*
     console.log('----------------------');
     console.log('Datos preview: ');
     console.log(previewproduct);
     console.log('----------------------');
-
+    */
     /*
     const [nombre, setnombre] = useState(undefined);
     const [precio, setprecio] = useState(undefined);
@@ -52,12 +53,13 @@ const Producto = () => {
                 precio:Data[0].precio,
                 referencia:Data[0].referencia,
                 foto:Data[0].foto
-            });        
+            });   
+            /*     
             console.log('----------------------');
             console.log('Datos preview: ');
             console.log(previewproduct);
             console.log('----------------------');
-        
+            */
             
         }
     }, [])

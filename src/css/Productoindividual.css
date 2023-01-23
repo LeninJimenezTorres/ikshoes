@@ -1,0 +1,67 @@
+.producto-individual-container{
+    width: 220px;
+    height: 280px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 50px;
+    border-bottom: solid 2px rgba(86,86,90,0.7) ;
+    
+}
+.thumbles-items{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+.thumbles-items img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    background-color: rgba(240, 248, 255, 0);
+}
+.thumbles-items-preview{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(70, 63, 54, 0);
+}
+.thumbles-items-preview img{
+    width: 20%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 228, 196, 0);
+    margin: 0 10px;
+}
+.nombre-producto-item{
+    width: 100%;
+    height: 12%;
+    background-color: rgba(95, 158, 160, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    color: rgba(16,16,16,1);
+    
+}
+.precio-producto-item{
+    width: 100%;
+    height: 18%;
+    background-color: rgba(195, 124, 9, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgba(122, 74, 88, 1);
+    font-size: 200%;
+}
