@@ -54,7 +54,7 @@ const Footer = () => {
                             Regístrate para ser el primero en recibir nuestras noticias
                         </div>
                         <div className='email'>
-                            <input type="email" name="" value="" placeholder='E-MAIL'/>
+                            <input type="email" name="" placeholder='E-MAIL'/>
                         </div>
                     </div>
                 </div>

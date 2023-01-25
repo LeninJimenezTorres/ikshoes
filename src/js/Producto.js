@@ -101,9 +101,28 @@ const Producto = ({datoproducto}) => {
                             <div className='producto-imagenes'>
                                 <ul>
                                     {
-                                        images_thumbs.map(thumb=>
-                                            <li key={thumb.id}><img src={thumb.url} alt=""/></li>
-                                        )
+                                        (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
+                                        <>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                        </>
+                                        :
+                                        <>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                        </>
                                     }
                                 </ul>
                             </div>
@@ -123,8 +142,30 @@ const Producto = ({datoproducto}) => {
                             <div className='producto-color'>
                                 <p>COLOR</p>
                                 <ul>
-                                    <li><img src='../img/preview/1.jpg' alt=""/></li>
-                                    <li><img src='../img/preview/1.jpg' alt=""/></li>
+                                    {
+                                        (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
+                                        <>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                            <li>
+                                                <img src={previewproduct.foto} alt=""/>
+                                            </li>
+                                        </>
+                                        :
+                                        <>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                        </>
+                                    }
                                 </ul>
                             </div>
                             <div className='producto-talla'>
