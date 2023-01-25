@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ikshoes/static/css/main.b1e4131b.css",
-    "main.js": "/ikshoes/static/js/main.2d7938d6.js",
+    "main.js": "/ikshoes/static/js/main.13b985c5.js",
     "static/js/787.ed32b23f.chunk.js": "/ikshoes/static/js/787.ed32b23f.chunk.js",
     "static/media/NASHVILL.TTF": "/ikshoes/static/media/NASHVILL.df2669504683c104f4d1.TTF",
     "static/media/RadiantAntique.ttf": "/ikshoes/static/media/RadiantAntique.30995d0d1bf037a2c6ad.ttf",
@@ -23,11 +23,11 @@
     "static/media/logo.svg": "/ikshoes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/ikshoes/index.html",
     "main.b1e4131b.css.map": "/ikshoes/static/css/main.b1e4131b.css.map",
-    "main.2d7938d6.js.map": "/ikshoes/static/js/main.2d7938d6.js.map",
+    "main.13b985c5.js.map": "/ikshoes/static/js/main.13b985c5.js.map",
     "787.ed32b23f.chunk.js.map": "/ikshoes/static/js/787.ed32b23f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b1e4131b.css",
-    "static/js/main.2d7938d6.js"
+    "static/js/main.13b985c5.js"
   ]
 }
