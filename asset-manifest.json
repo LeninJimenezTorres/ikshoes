@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/ikshoes/static/css/main.b1e4131b.css",
+    "main.js": "/ikshoes/static/js/main.2d7938d6.js",
+    "static/js/787.ed32b23f.chunk.js": "/ikshoes/static/js/787.ed32b23f.chunk.js",
+    "static/media/NASHVILL.TTF": "/ikshoes/static/media/NASHVILL.df2669504683c104f4d1.TTF",
+    "static/media/RadiantAntique.ttf": "/ikshoes/static/media/RadiantAntique.30995d0d1bf037a2c6ad.ttf",
+    "static/media/brotherDeluxe1350____2011.ttf": "/ikshoes/static/media/brotherDeluxe1350____2011.65e2d97e3ff0b8e6ab08.ttf",
+    "static/media/glyphicons-halflings-regular.ttf": "/ikshoes/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/nuclear.png": "/ikshoes/static/media/nuclear.a0ec753ae9e20250c436.png",
+    "static/media/CuttyFruty.ttf": "/ikshoes/static/media/CuttyFruty.e75e85b43991e5011637.ttf",
+    "static/media/iso.png": "/ikshoes/static/media/iso.272bc656bb85d33ce444.png",
+    "static/media/Montserrat-Bold.ttf": "/ikshoes/static/media/Montserrat-Bold.733964aa5261b1af4852.ttf",
+    "static/media/Montserrat-Regular.ttf": "/ikshoes/static/media/Montserrat-Regular.e20d5327f1a05620c084.ttf",
+    "static/media/heart.png": "/ikshoes/static/media/heart.25169ebcc9bb4cd3efb5.png",
+    "static/media/master-card.png": "/ikshoes/static/media/master-card.6c464f89ea24aed9b6ed.png",
+    "static/media/intel.png": "/ikshoes/static/media/intel.6ad488b980ea76ff2f4d.png",
+    "static/media/symbols.png": "/ikshoes/static/media/symbols.21275e804a89982442aa.png",
+    "static/media/paypal-logo.png": "/ikshoes/static/media/paypal-logo.ca7327e6055f33072d47.png",
+    "static/media/tesla.png": "/ikshoes/static/media/tesla.8536b88a5432b6163126.png",
+    "static/media/instagram.png": "/ikshoes/static/media/instagram.eaf86edb04166dbcf513.png",
+    "static/media/logo.jpg": "/ikshoes/static/media/logo.e07ccc93db04bc59a5df.jpg",
+    "static/media/logo.svg": "/ikshoes/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ikshoes/index.html",
+    "main.b1e4131b.css.map": "/ikshoes/static/css/main.b1e4131b.css.map",
+    "main.2d7938d6.js.map": "/ikshoes/static/js/main.2d7938d6.js.map",
+    "787.ed32b23f.chunk.js.map": "/ikshoes/static/js/787.ed32b23f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b1e4131b.css",
+    "static/js/main.2d7938d6.js"
+  ]
+}
