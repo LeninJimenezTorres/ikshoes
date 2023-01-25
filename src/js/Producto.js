@@ -46,7 +46,7 @@ const Producto = ({datoproducto}) => {
     ]
 
     if(datoproducto && datoproducto!=undefined){
-        console.log('VERGA LLEGO');
+        console.log('Llego desde hijo');
         console.log(datoproducto)
     }
     
