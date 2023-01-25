@@ -26,6 +26,11 @@ const Producto = ({datoproducto}) => {
     //const estado=UseFetch(url);
     //console.log(estado);
 
+    const imagePreviewGaleryUrl = 'https://raw.githubusercontent.com/LeninJimenezTorres/ikshoes/master/src/img/preview/';
+    const imageGaleryUrl = 'https://raw.githubusercontent.com/LeninJimenezTorres/ikshoes/master/src/img/';
+    //const imagePreviewGaleryUrl = '../img/preview/';
+    //const imageGaleryUrl = '../img/';
+
     const images_thumbs=[
         {
             'id':'1',
@@ -76,7 +81,7 @@ const Producto = ({datoproducto}) => {
                 nombre:datoproducto.nombre,
                 precio:datoproducto.precio,
                 referencia:datoproducto.referencia,
-                foto:'../img/'+datoproducto.foto
+                foto:datoproducto.foto
             });      
         }
     }, [datoproducto])
@@ -93,9 +98,9 @@ const Producto = ({datoproducto}) => {
                             <div className='producto-imagen'>
                                 {
                                     (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
-                                    <img src={previewproduct.foto} alt=""/>
+                                    <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                     :
-                                    <img src="../img/preview/1.jpg" alt=""/>
+                                    <img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/>
                                 }
                             </div>
                             <div className='producto-imagenes'>
@@ -104,24 +109,24 @@ const Producto = ({datoproducto}) => {
                                         (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
                                         <>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                         </>
                                         :
                                         <>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
                                         </>
                                     }
                                 </ul>
@@ -146,24 +151,24 @@ const Producto = ({datoproducto}) => {
                                         (datoproducto && datoproducto.foto && datoproducto.foto!=undefined)?
                                         <>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                             <li>
-                                                <img src={previewproduct.foto} alt=""/>
+                                                <img src={ imageGaleryUrl + previewproduct.foto} alt=""/>
                                             </li>
                                         </>
                                         :
                                         <>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
-                                            <li><img src="../img/preview/1.jpg" alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
+                                            <li><img src= {imagePreviewGaleryUrl + "/1.jpg"} alt=""/></li>
                                         </>
                                     }
                                 </ul>
